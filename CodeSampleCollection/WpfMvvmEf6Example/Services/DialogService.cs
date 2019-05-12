@@ -1,5 +1,4 @@
-﻿using GalaSoft.MvvmLight.Messaging;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +6,6 @@ using System.Threading.Tasks;
 using System.Windows;
 using WpfMvvmEf6Example.Interfaces;
 using WpfMvvmEf6Example.Models;
-using WpfMvvmEf6Example.Services;
 using WpfMvvmEf6Example.ViewModel;
 using WpfMvvmEf6Example.Views;
 

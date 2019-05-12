@@ -1,7 +1,9 @@
-using Microsoft.Practices.ServiceLocation;
-using Microsoft.Practices.Unity;
+using CommonServiceLocator;
 using System.Linq;
 using System.Windows;
+using Unity;
+using Unity.Lifetime;
+using Unity.ServiceLocation;
 using WpfMvvmEf6Example.Interfaces;
 using WpfMvvmEf6Example.Services;
 
