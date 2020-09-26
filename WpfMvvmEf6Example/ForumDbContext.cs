@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WpfMvvmEf6Example.Interfaces;
 using WpfMvvmEf6Example.Models;
 
 namespace WpfMvvmEf6Example

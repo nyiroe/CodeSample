@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using WpfMvvmEf6Example.Interfaces;
 using WpfMvvmEf6Example.Models;
@@ -48,7 +45,7 @@ namespace WpfMvvmEf6Example.Services
             post.Message = message.Trim();
 
             // ha új record lett módosítva, ne változzon a State
-            if (post.PostId != default(int))
+            if (post.PostId != default)
                 post.State = ItemState.Modified;
 
             return post;
@@ -60,7 +57,7 @@ namespace WpfMvvmEf6Example.Services
 
             // ha új record lett törölve, bele se kerüljön a gráfba
             // mivel az EF megpróbálja törölni a 0-s ID-jű rekordot is
-            if (post.PostId == default(int))
+            if (post.PostId == default)
                 EditedTopic.Posts.Remove(post);
 
             return post;

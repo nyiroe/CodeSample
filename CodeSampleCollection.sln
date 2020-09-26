@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMvvmEf6Example", "WpfMvvmEf6Example\WpfMvvmEf6Example.csproj", "{B06BF6E6-B541-4185-8DF2-8AEEC695D6D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubikTangle", "RubikTangle\RubikTangle.csproj", "{65FD9CCE-957C-479A-8186-E427CCE8C383}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{B06BF6E6-B541-4185-8DF2-8AEEC695D6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B06BF6E6-B541-4185-8DF2-8AEEC695D6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B06BF6E6-B541-4185-8DF2-8AEEC695D6D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65FD9CCE-957C-479A-8186-E427CCE8C383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65FD9CCE-957C-479A-8186-E427CCE8C383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65FD9CCE-957C-479A-8186-E427CCE8C383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65FD9CCE-957C-479A-8186-E427CCE8C383}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {472399E1-A610-470D-BF4E-A621903F8AB0}
 	EndGlobalSection
 EndGlobal

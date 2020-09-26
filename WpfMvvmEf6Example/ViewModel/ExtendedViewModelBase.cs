@@ -1,10 +1,6 @@
 ﻿using GalaSoft.MvvmLight;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WpfMvvmEf6Example.ViewModel
 {
@@ -29,8 +25,7 @@ namespace WpfMvvmEf6Example.ViewModel
 
         protected virtual void Close()
         {
-            if (Closed != null)
-                Closed(this, EventArgs.Empty);
+            Closed?.Invoke(this, EventArgs.Empty);
         }
     }
 }
